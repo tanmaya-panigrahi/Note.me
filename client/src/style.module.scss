@@ -1,0 +1,7 @@
+.container{
+    display:flex;
+    border:1px solid red;
+    >h1{
+        color:blue;
+    }
+}

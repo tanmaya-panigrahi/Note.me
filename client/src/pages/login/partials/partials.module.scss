@@ -1,0 +1,60 @@
+.form {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+
+  .google {
+    display: flex;
+    width: 320px;
+    padding: 13px 20px;
+    color: var(--white);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 25px 0px;
+    background-color: #f7685c;
+    gap: 14px;
+    border-radius: 8px;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    h3 {
+      font-size: var(--fs-lg);
+    }
+
+    @media screen and (min-width: 1400px) {
+      width: 400px;
+    }
+  }
+
+  .option {
+    display: flex;
+    margin-bottom: 30px;
+    height: 1px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--grey);
+
+    span {
+      background-color: var(--white);
+      z-index: 1;
+      padding: 0px 5px;
+      position: absolute;
+      color: var(--grey);
+    }
+  }
+
+  .details {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .emailBtn {
+    background-color: #30c58d;
+    color: var(--white);
+  }
+}

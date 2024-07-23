@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    width:500px;
+    height:12px;
+    overflow: hidden;
+    border-radius: 1000px;
+    background-color: var(--cream-light);
+
+    span{
+        background-color: var(--black);
+        border-radius: 1000px;
+
+    }
+}
+

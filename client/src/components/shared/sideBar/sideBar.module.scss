@@ -1,0 +1,49 @@
+.sidebar{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 50px auto 50px;
+    height: 100vh;
+    width: 65px;
+    background-color: var(--black);
+    padding: 28px 0;
+    
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        img{
+            width:40px;
+            height: 40px;
+            cursor: pointer;
+        }
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .item {
+            cursor: pointer;
+            svg {
+                width: 40px;
+                height: 40px;
+                color: var(--white);
+            }
+        }
+    }
+    .logout{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        cursor: pointer;
+
+        svg{
+            width: 40px;
+            height: 40px;
+            color: var(--white);
+        }
+    }
+}

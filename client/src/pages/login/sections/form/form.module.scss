@@ -1,0 +1,19 @@
+.form-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    p{
+        display: block;
+        color: var(--black);
+        font-size:var(--fs-medium);
+
+        span{
+            font-weight: var(--fw-bold);
+            font-size:var(--fs-medium);
+            cursor: pointer;
+        }
+    }
+}
